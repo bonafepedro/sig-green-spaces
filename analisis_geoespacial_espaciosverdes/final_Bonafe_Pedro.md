@@ -14,7 +14,7 @@ Finalmente, como yapa, incorporaremos las orillas del río actualmente en un est
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 ```
-##Consideraciones iniciales
+## Consideraciones iniciales
 
 Para el desarrollo de nuestro proyecto utilizaremos las siguientes librerías
 
