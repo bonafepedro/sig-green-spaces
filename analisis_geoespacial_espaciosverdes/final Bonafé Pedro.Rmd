@@ -52,8 +52,8 @@ class(allende_poly)
 Además extraeremos un mapa de Villa Allende que usaremos como "Capa Base". Para ello usaremos los mapas de Stamen Maps.
 
 ```{r}
-vabase <- get_stamenmap(bbox = bb_villa, #En bboxle indicamos los límites específicos, ya lo sabemos!
-                      maptype = "terrain", #En maptype le indicamos el tipo de mapa que queremos descargarnos. 
+vabase <- get_stamenmap(bbox = bb_villa, 
+                      maptype = "terrain", 
                       zoom=12)
 ```
 Lo observamos
